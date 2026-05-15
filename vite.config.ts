@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      base: process.env.API_BASE_URL || "/zensark-ai-assistant",
+      base: "/vercel_fronted_chatbot/",
     },
   },
 });
